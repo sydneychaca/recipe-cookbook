@@ -1,13 +1,19 @@
 <html>
     <head>
-        <title>Welcome!</title>
+         <link href="static/css/style.css" rel="stylesheet">
+        <title>Dessert Recipe Collection</title>
     </head>
     <body>
-        <h1>Hello world!</h1>
-        <p>We can build a full webpage here</p>
-        <form>
-            <input type="text" name="nickname" placeholder="Enter your nickname"/>
+        <div id ="beginning">
+            <h1>Dessert Recipe Collection</h1>
+        <h2>Pick from the recipes below:</h2>
+        <h3>Cheesecake<br>Donut<br>Caramel Apple</h3>
+        <br>
+        <form method = "post" action = "/results">
+            <input type="text" name="desserts" placeholder="Enter your dessert choice"/>
             <input type="submit" value="Submit"/>
         </form>
+        </div>
+        
     </body>
 </html>
